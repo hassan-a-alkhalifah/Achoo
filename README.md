@@ -27,7 +27,7 @@ Achoo is a local Portland doctor search engine. Based on medical issue entered i
 ```
 ~/Desktop $ git clone [REPO URL]
 ```
-* Change directory to directory of cloned REPO
+* Navigate into main directory of cloned REPO
 ```
 ~/Desktop $ cd directory-name
 ```
