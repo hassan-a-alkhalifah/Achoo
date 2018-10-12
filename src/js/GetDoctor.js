@@ -2,6 +2,9 @@ export default class GetDoctor {
   constructor() {
     this.doctors=[];
   }
+  resetDoctors() {
+    this.doctors = [];
+  }
   getBetterDoctor(name, medicalIssue) {
     return new Promise(function(resolve, reject) {
       const request = new XMLHttpRequest();
@@ -17,7 +20,6 @@ export default class GetDoctor {
       request.send();
     });
   }
-
   createDoctorObjects(response) {
     for (var i = 0; i < response.data.length; i++) {
       this.doctors.push({
@@ -42,5 +44,4 @@ export default class GetDoctor {
       }
     }
   }
-
 }
