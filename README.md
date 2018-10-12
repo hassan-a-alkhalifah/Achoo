@@ -35,7 +35,7 @@ Achoo is a local Portland doctor search engine. Based on medical issue entered i
 ```
 ~/Desktop/directory-name $ npm install
 ```
-* As the web application uses BetterDoctor API, you are required to retrieve and API key from [BetterDoctor API](https://developer.betterdoctor.com/).
+* As the web application uses BetterDoctor API, you are required to retrieve an API key from [BetterDoctor API](https://developer.betterdoctor.com/).
 * In the root directory of the web application, create a .env file. Inside the file, enter the following, exports.apiKey=[API_KEY GOES HERE]
 * Run npm run build in terminal
 ```
